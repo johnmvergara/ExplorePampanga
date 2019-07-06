@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".History">
+
+    <Button
+        android:id="@+id/titlebutton1"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="HISTORY"
+        android:textColor="#11223c"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <TextView
+    android:id="@+id/textView6"
+        android:layout_width="383dp"
+        android:layout_height="515dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Pampanga or Pampa?ga is a province in the Central Luzon region of the Philippines. Lying on the northern shore of Manila Bay, Pampanga is bordered by the provinces of Bataan and Zambales to the west, Tarlac and Nueva Ecijaa to the north, and Bulacan to the southeast. Its capital is the City of San Fernando; Angeles City, while geographically within Pampanga, is classified as a first-class highly urbanized cityand is governed independently of the province. The name La Pampanga was given by the Spaniards, who encountered natives living along the banks (pampáng) of the Pampanga River. Its creation in 1571 makes it the first Spanish province on Luzon Island. The town of Bacolor the province briefly served as the Spanish colonial capital when Great Britain invaded Manila as part of the Seven Years War. At the eve of the Philippine Revolution of 1896, Pampanga was one of eight provinces placed under martial law for rebellion against the Spanish Empire; it is thus represented on the Philippine national flag as one of the eight rays of the sun.  Pampanga is served by Clark International Airport, which is in Clark Freeport Zone, some 16 kilometres (9.9 mi) north of the provincial capital. The province is home to two Philippine Air Force air bases, Basa Air Base in Floridablanca, and the former United States Cl;ark Air Base in Angeles City."
+        android:textSize="15.2sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.937"
+        android:textColor="#FFFFFF"/>
+
+</android.support.constraint.ConstraintLayout>

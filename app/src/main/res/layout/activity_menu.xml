@@ -54,6 +54,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="@drawable/rounded_button"
+        android:onClick="goHistory"
         android:text="HISTORY"
         android:textColor="#11223c"
         android:textSize="18sp"
@@ -73,6 +74,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="68dp"
         android:background="@drawable/rounded_button"
+        android:onClick="goDirectory"
         android:text="DIRECTORY"
         android:textColor="#11223c"
         android:textSize="18sp"
@@ -84,7 +86,7 @@
         app:layout_constraintVertical_bias="0.533" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvGreeting"
         android:layout_width="331dp"
         android:layout_height="115dp"
         android:layout_marginStart="8dp"
@@ -92,9 +94,9 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="Welcome,"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.455"
         app:layout_constraintStart_toStartOf="parent"
